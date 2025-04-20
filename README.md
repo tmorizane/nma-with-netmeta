@@ -9,7 +9,7 @@ Grosjean P (2022). SciViews-R: A GUI API for R. UMONS, MONS, Belgium. http://www
 nma-with-netmeta is R scripts doing network meta-analysis using these packages. Thus, you need to install these two R packages before using to-nma-with-netmeta.R or nma-with-netmeta.R.
 
 ## Data entry
-You have data for network meta-analyais in a format of one pair in one line in Excel. Please use netmeta-data-templates.xlsx to prepare your data by replacing the data. There are a sheet for binary outcome, a sheet for continuous outcome, and a sheet for hazard ration.
+You have data for network meta-analyais in a format of one pair in one line in Excel. Please use netmeta-data-templates.xlsx to prepare your data by replacing the data. There are a sheet for binary outcome, a sheet for continuous outcome, and a sheet for hazard ratio.
 
 ## Do network meta-analysis
 Start R in your PC. Open the Excel file and select cell range, and  copy (ctr + C).  Then in R run to-nma-with-netmeta.R, which is only one line of scripts, one for Windows and another is for Mac. The nma-with-netmeta.R is downloaded from a server and automatically run in your PC with source function.
